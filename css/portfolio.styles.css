@@ -1,0 +1,175 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+
+}
+
+.header-navigation {
+
+}
+
+.link {
+
+}
+
+.header-logo {
+    font-family: "Raleway",sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.header-logo-span {
+    color: #2e2f42;
+}
+
+.header-list {
+    
+}
+
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-item:is(:hover, :focus) {
+    color: #404bbf;
+} 
+ 
+.header-address {
+font-style: normal;
+font-style: normal;
+}
+
+.address-list {
+list-style: none;
+}
+
+.address-item {
+
+}
+
+.address-mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-mail:hover {
+    color: #404bbf;
+}
+
+.address-mail:focus {
+    color: #404bbf;
+}
+
+.address-phone {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-phone:hover {
+    color: #404bbf;
+}
+
+.address-phone:focus {
+    color: #404bbf;
+}
+
+.hero {
+
+}
+
+.hero-list {
+
+}
+
+.hero-item {
+
+}
+
+.hero-btn {
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.hero-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.card-list {
+
+}
+
+.card-item {
+
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.card-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+font-family: "Raleway",sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.footer-logo-span {
+    color: #F4F4FD;
+}
+
+.footer-paragraph {
+    
+}
