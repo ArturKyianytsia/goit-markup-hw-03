@@ -1,6 +1,15 @@
+:root {
+    --primery-text-color:#434455;
+    --title-text-color:#2E2F42;
+    --color-web:#4D5AE5;
+    --color-title:#FFFFFF;
+    --color-footer-text:#F4F4FD;
+    --hover-and-focus-color:#404BBF;
+}
+
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color: var(--primery-text-color);
 }
 
 .list {
@@ -30,11 +39,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--color-web);
 }
 
 .header-logo-span {
-    color: #2e2f42;
+    color: var(--title-text-color);
 }
 
 .header-list {
@@ -46,11 +55,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-text-color);
 }
 
 .header-item:is(:hover, :focus) {
-    color: #404bbf;
+    color: var(--hover-and-focus-color);
 } 
  
 .header-address {
@@ -70,30 +79,30 @@ list-style: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primery-text-color);
 }
 
 .address-mail:hover {
-    color: #404bbf;
+    color: var(--hover-and-focus-color);
 }
 
 .address-mail:focus {
-    color: #404bbf;
+    color: var(--hover-and-focus-color);
 }
 
 .address-phone {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primery-text-color);
 }
 
 .address-phone:hover {
-    color: #404bbf;
+    color: var(--hover-and-focus-color);
 }
 
 .address-phone:focus {
-    color: #404bbf;
+    color: var(--hover-and-focus-color);
 }
 
 .hero {
@@ -114,19 +123,19 @@ list-style: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background-color: #F4F4FD;
+    color: var(--color-web);
+    background-color: var(--color-footer-text);
     cursor: pointer;
 }
 
 .hero-btn:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--color-title);
+    background-color: var(--hover-and-focus-color);
 }
 
 .hero-btn:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--color-title);
+    background-color: var(--hover-and-focus-color);
 }
 
 .card-list {
@@ -142,18 +151,18 @@ list-style: none;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-text-color);
 }
 
 .card-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primery-text-color);
 }
 
 .footer {
-    background-color: #2e2f42;
+    background-color: var(--title-text-color);
 }
 
 .footer-logo {
@@ -163,11 +172,11 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: var(--color-web);
 }
 
 .footer-logo-span {
-    color: #F4F4FD;
+    color: var(--color-footer-text);
 }
 
 .footer-paragraph {
