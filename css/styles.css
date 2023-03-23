@@ -14,6 +14,24 @@ body {
     --hover-and-focus-color:#404BBF;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 .list {
     list-style: none;
 }
@@ -22,15 +40,21 @@ body {
     text-decoration: none;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .container {
     width: 1158px;
-    padding-left: 141px;
-    padding-right: 141px;
-    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .header {
-
+padding-top: 25.5px;
+padding-bottom: 25.5px;
 }
 
 .header-navigation {
@@ -112,6 +136,8 @@ body {
 
 .hero {
     background: var(--title-text-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -121,6 +147,8 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-title);
+    width: 496px;
+    margin: 0 auto;
 }
 
 .hero-btn {
@@ -143,7 +171,7 @@ body {
 }
 
 .feature {
-
+padding-top: 120px;
 }
 
 .feature-list {
@@ -176,7 +204,6 @@ body {
 
 .work {
 
-    
 }
 
 .work-title {
@@ -186,6 +213,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-text-color);
+    margin-bottom: 72px;
 }
 
 .work-list {
@@ -207,6 +235,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-text-color);
+    margin-bottom: 72px;
     
 }
 
@@ -235,6 +264,8 @@ body {
 
 .footer {
     background: var(--title-text-color);
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -257,6 +288,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-footer-text);
+    width: 264px;
 }
 
 /*-------------початок портфоліо-------------*/
