@@ -258,3 +258,66 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-footer-text);
 }
+
+/*-------------початок портфоліо-------------*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primery-text-color);
+}
+
+.portfolio {
+
+}
+
+.portfolio-list {
+
+}
+
+.portfolio-item {
+
+}
+
+.portfolio-btn {
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-web);
+    background-color: var(--color-footer-text);
+    cursor: pointer;
+}
+
+.portfolio-btn:hover {
+    color: var(--color-title);
+    background-color: var(--hover-and-focus-color);
+}
+
+.portfolio-btn:focus {
+    color: var(--color-title);
+    background-color: var(--hover-and-focus-color);
+}
+
+.card-list {
+
+}
+
+.card-item {
+
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.card-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primery-text-color);
+}
